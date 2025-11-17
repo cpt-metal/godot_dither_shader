@@ -1,0 +1,9 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://bqrxjfhrcxff"]
+
+[ext_resource type="Texture2D" uid="uid://dpm0taqngmgyh" path="res://radiobutton_unselected.tres" id="1_1pnj1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rhahl"]
+
+[resource]
+CheckBox/icons/radio_unchecked = ExtResource("1_1pnj1")
+CheckBox/styles/focus = SubResource("StyleBoxEmpty_rhahl")
